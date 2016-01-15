@@ -56,9 +56,9 @@ class HDraggableLayout extends FrameLayout {
     public HDraggableLayout(Context context) {
         super(context);
         View shadowView = new ShadowView(context);
-        LayoutParams p = new LayoutParams(20, ViewGroup.LayoutParams.MATCH_PARENT);
+        LayoutParams p = new LayoutParams(40, ViewGroup.LayoutParams.MATCH_PARENT);
         p.gravity = Gravity.LEFT | Gravity.TOP;
-        p.leftMargin = -20;
+        p.leftMargin = -40;
         addView(shadowView, p);
     }
 
@@ -85,7 +85,7 @@ class HDraggableLayout extends FrameLayout {
                 //只负责起始时的拦截.拦截后,事件就完全交给touch来处理了.
                 if (Math.abs(mTouchPointDist.y) > Math.abs(mTouchPointDist.x)) break;
                 if (mTouchPointDist.x < MIN_SLOP) break;
-
+                if (ev.getRawX() > 100) break;//手指在左边100以内滑动触发.
                 Log.i("onInterceptTouchEvent", String.format("dx:%f,dy:%f", mTouchPointDist.x, mTouchPointDist.y));
                 return true;
             }
@@ -194,7 +194,7 @@ class ShadowView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         Shader mShader = new LinearGradient(getWidth(), 0, 0, 0,
-                new int[]{Color.GRAY, Color.TRANSPARENT}, null, Shader.TileMode.CLAMP);
+                new int[]{Color.argb(50, 100, 100, 100), Color.TRANSPARENT}, null, Shader.TileMode.CLAMP);
         shadowPaint.setShader(mShader);
         canvas.drawRect(0, 0, getWidth(), getHeight(), shadowPaint);
     }

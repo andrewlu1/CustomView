@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:1:1-33:12
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:1:1-32:12
 	xmlns:android
 		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:1:11-69
 	package
@@ -27,7 +27,7 @@ MERGED from [com.android.support:support-v4:23.1.1] /home/andrewlu/workspace/pri
 		INJECTED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml
 		INJECTED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:10:5-31:19
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:10:5-30:19
 MERGED from [com.android.support:support-v4:23.1.1] /home/andrewlu/workspace/private/code/android/CustomView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:13:9-41
@@ -38,34 +38,34 @@ MERGED from [com.android.support:support-v4:23.1.1] /home/andrewlu/workspace/pri
 	android:theme
 		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:14:9-40
 activity#cn.andrewlu.app.customview.sample.MainActivity
-ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:15:9-20:20
 	android:name
 		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:15:19-54
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:16:13-19:29
 action#android.intent.action.MAIN
 ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
 		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:18:27-74
 activity#cn.andrewlu.app.customview.sample.FlipActivity
-ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:22:9-24:52
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:21:9-23:52
 	android:theme
-		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:24:13-49
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:23:13-49
 	android:name
-		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:23:13-48
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:22:13-48
 activity#cn.andrewlu.app.customview.sample.FlexActivity
-ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:25:9-27:52
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:24:9-26:52
 	android:theme
-		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:27:13-49
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:26:13-49
 	android:name
-		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:26:13-48
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:25:13-48
 activity#cn.andrewlu.app.customview.sample.RefreshActivity
-ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:28:9-30:52
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:27:9-29:52
 	android:theme
-		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:30:13-49
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:29:13-49
 	android:name
-		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:29:13-51
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:28:13-51
