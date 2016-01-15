@@ -1,0 +1,7 @@
+<resources>
+
+    <declare-styleable name="FlexableHeaderLayout">
+        <attr name="header" format="reference" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,71 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:1:1-33:12
+	xmlns:android
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:1:11-69
+	package
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:2:5-41
+		INJECTED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml
+		INJECTED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml
+		INJECTED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml
+		INJECTED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:23.1.1] /home/andrewlu/workspace/private/code/android/CustomView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:8:9-38
+		INJECTED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml
+		INJECTED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:7:9-35
+		INJECTED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml
+		INJECTED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:10:5-31:19
+MERGED from [com.android.support:support-v4:23.1.1] /home/andrewlu/workspace/private/code/android/CustomView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:12:9-45
+	android:theme
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:14:9-40
+activity#cn.andrewlu.app.customview.sample.MainActivity
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:15:19-54
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:19:27-74
+activity#cn.andrewlu.app.customview.sample.FlipActivity
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:22:9-24:52
+	android:theme
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:24:13-49
+	android:name
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:23:13-48
+activity#cn.andrewlu.app.customview.sample.FlexActivity
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:25:9-27:52
+	android:theme
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:27:13-49
+	android:name
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:26:13-48
+activity#cn.andrewlu.app.customview.sample.RefreshActivity
+ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:28:9-30:52
+	android:theme
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:30:13-49
+	android:name
+		ADDED from /home/andrewlu/workspace/private/code/android/CustomView/app/src/main/AndroidManifest.xml:29:13-51
