@@ -26,7 +26,7 @@ public class MainActivity extends FragmentActivity {
         ViewUtils.inject(this);
     }
 
-    @OnClick({R.id.refreshBtn, R.id.flipBtn})
+    @OnClick({R.id.refreshBtn, R.id.flipBtn, R.id.customView})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.refreshBtn: {
@@ -39,7 +39,11 @@ public class MainActivity extends FragmentActivity {
                 startActivity(i);
                 break;
             }
-
+            case R.id.customView: {
+                Intent i = new Intent(this, ActivityRatio.class);
+                startActivity(i);
+                break;
+            }
         }
     }
 }

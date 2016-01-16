@@ -4,4 +4,8 @@
         <attr name="header" format="reference" />
     </declare-styleable>
 
+    <declare-styleable name="RatioLayout">
+        <attr name="ratio_w_h" format="float"></attr>
+        <attr name="ratio_h_w" format="float"></attr>
+    </declare-styleable>
 </resources>

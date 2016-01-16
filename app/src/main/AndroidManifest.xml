@@ -27,6 +27,9 @@
         <activity
             android:name=".sample.RefreshActivity"
             android:theme="@style/myTransparent" />
+        <activity
+            android:name=".sample.ActivityRatio"
+            android:theme="@style/myTransparent" />
     </application>
 
 </manifest>

@@ -30,5 +30,10 @@
         android:layout_height="wrap_content"
         android:text="滑动关闭Activity" />
 
+    <Button
+        android:id="@+id/customView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义布局" />
 
 </LinearLayout>

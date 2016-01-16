@@ -70,6 +70,7 @@ class HDraggableLayout extends FrameLayout {
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
+        //Log.i("FlipHelper", "onInterceptTouchEvent:" + ev.toString());
         switch (ev.getAction()) {
             case MotionEvent.ACTION_DOWN: {
                 mTouchPoint.x = ev.getRawX();
@@ -85,7 +86,7 @@ class HDraggableLayout extends FrameLayout {
                 //只负责起始时的拦截.拦截后,事件就完全交给touch来处理了.
                 if (Math.abs(mTouchPointDist.y) > Math.abs(mTouchPointDist.x)) break;
                 if (mTouchPointDist.x < MIN_SLOP) break;
-                if (ev.getRawX() > 100) break;//手指在左边100以内滑动触发.
+                if (ev.getX() > 100) break;//手指在左边100以内滑动触发.
                 Log.i("onInterceptTouchEvent", String.format("dx:%f,dy:%f", mTouchPointDist.x, mTouchPointDist.y));
                 return true;
             }
@@ -95,6 +96,7 @@ class HDraggableLayout extends FrameLayout {
 
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
+        //Log.i("FlipHelper", "onTouchEvent:" + ev.toString());
         switch (ev.getAction()) {
             case MotionEvent.ACTION_MOVE: {
                 mTouchPointDist.x = ev.getRawX() - mTouchPoint.x;
@@ -103,6 +105,7 @@ class HDraggableLayout extends FrameLayout {
                 if (getScrollX() - mTouchPointDist.x > 0) {
                     mTouchPointDist.x = getScrollX();
                 }
+
                 mTouchPoint.x = ev.getRawX();
                 mTouchPoint.y = ev.getRawY();
                 onGestureListener.onScroll(mTouchPointDist.x, mTouchPointDist.y);
@@ -115,7 +118,7 @@ class HDraggableLayout extends FrameLayout {
                 break;
             }
         }
-        return super.onTouchEvent(ev);
+        return true;
     }
 
     private ValueAnimator backAnim, finishAnim;
