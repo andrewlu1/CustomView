@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/home/andrewlu/workspace/private/code/android/CustomView/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
-        "source": "/home/andrewlu/workspace/private/code/android/CustomView/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+        "merged": "D:\\ws-private\\CustomView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\ws-private\\CustomView\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     }
 ]

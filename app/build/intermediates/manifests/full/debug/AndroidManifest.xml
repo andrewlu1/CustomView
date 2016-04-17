@@ -29,6 +29,9 @@
         <activity
             android:name="cn.andrewlu.app.customview.sample.RefreshActivity"
             android:theme="@style/myTransparent" />
+        <activity
+            android:name="cn.andrewlu.app.customview.sample.ActivityRatio"
+            android:theme="@style/myTransparent" />
     </application>
 
 </manifest>

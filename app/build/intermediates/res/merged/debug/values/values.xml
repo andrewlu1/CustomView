@@ -4,6 +4,9 @@
     <color name="primary_dark">#FF0288D1</color>
     <color name="status_bar_color">@color/primary_dark</color>
     <declare-styleable name="FlexableHeaderLayout"><attr format="reference" name="header"/></declare-styleable>
+    <declare-styleable name="PxBlurringView"><attr format="integer" name="blurRadius"/><attr format="integer" name="downsampleFactor"/><attr format="color" name="overlayColor"/></declare-styleable>
+    <declare-styleable name="RatioLayout"><attr format="float" name="ratio_w_h"/><attr format="float" name="ratio_h_w"/></declare-styleable>
+    <declare-styleable name="RoundView"><attr format="dimension" name="radius"/><attr format="dimension" name="strokeWidth"/><attr format="color" name="strokeColor"/><attr format="enum" name="shape"><enum name="rect" value="0"/><enum name="circle" value="1"/><enum name="oval" value="2"/></attr></declare-styleable>
     <string name="app_name">自定义控件</string>
     <style name="AppBaseTheme" parent="android:Theme.NoTitleBar">
         <item name="android:windowNoTitle">true</item>

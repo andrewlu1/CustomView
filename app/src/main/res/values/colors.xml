@@ -3,4 +3,25 @@
     <color name="primary">#FF03A9F4</color>
     <color name="primary_dark">#FF0288D1</color>
     <color name="status_bar_color">@color/primary_dark</color>
+
+    <!--用于背景模糊的控件额外属性.-->
+    <declare-styleable name="PxBlurringView">
+        <attr name="blurRadius" format="integer" />
+        <attr name="downsampleFactor" format="integer" />
+        <attr name="overlayColor" format="color" />
+    </declare-styleable>
+
+
+    <!--用于圆角布局的View.-->
+    <declare-styleable name="RoundView">
+        <attr name="radius" format="dimension"></attr>
+        <attr name="strokeWidth" format="dimension"></attr>
+        <attr name="strokeColor" format="color"></attr>
+        <attr name="shape" format="enum">
+            <enum name="rect" value="0" />
+            <enum name="circle" value="1" />
+            <enum name="oval" value="2" />
+        </attr>
+
+    </declare-styleable>
 </resources>

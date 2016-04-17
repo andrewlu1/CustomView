@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/andrewlu/workspace/private/code/android/CustomView/app/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
+        "outputFile": "D:\\ws-private\\CustomView\\app\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,14 +12,14 @@
                     "endOffset": 171
                 },
                 "from": {
-                    "file": "/home/andrewlu/workspace/private/code/android/CustomView/app/src/main/res/values-v11/styles.xml",
+                    "file": "D:\\ws-private\\CustomView\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 177,
+                        "startOffset": 183,
                         "endLine": 8,
                         "endColumn": 12,
-                        "endOffset": 293
+                        "endOffset": 301
                     }
                 }
             }

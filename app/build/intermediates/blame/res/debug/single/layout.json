@@ -1,22 +1,26 @@
 [
     {
-        "merged": "/home/andrewlu/workspace/private/code/android/CustomView/app/build/intermediates/res/merged/debug/layout/inc_header.xml",
-        "source": "/home/andrewlu/workspace/private/code/android/CustomView/app/src/main/res/layout/inc_header.xml"
+        "merged": "D:\\ws-private\\CustomView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_refresh.xml",
+        "source": "D:\\ws-private\\CustomView\\app\\src\\main\\res\\layout\\activity_refresh.xml"
     },
     {
-        "merged": "/home/andrewlu/workspace/private/code/android/CustomView/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/home/andrewlu/workspace/private/code/android/CustomView/app/src/main/res/layout/activity_main.xml"
+        "merged": "D:\\ws-private\\CustomView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_flip.xml",
+        "source": "D:\\ws-private\\CustomView\\app\\src\\main\\res\\layout\\activity_flip.xml"
     },
     {
-        "merged": "/home/andrewlu/workspace/private/code/android/CustomView/app/build/intermediates/res/merged/debug/layout/activity_flip.xml",
-        "source": "/home/andrewlu/workspace/private/code/android/CustomView/app/src/main/res/layout/activity_flip.xml"
+        "merged": "D:\\ws-private\\CustomView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inc_header.xml",
+        "source": "D:\\ws-private\\CustomView\\app\\src\\main\\res\\layout\\inc_header.xml"
     },
     {
-        "merged": "/home/andrewlu/workspace/private/code/android/CustomView/app/build/intermediates/res/merged/debug/layout/activity_flexheader.xml",
-        "source": "/home/andrewlu/workspace/private/code/android/CustomView/app/src/main/res/layout/activity_flexheader.xml"
+        "merged": "D:\\ws-private\\CustomView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\ws-private\\CustomView\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/home/andrewlu/workspace/private/code/android/CustomView/app/build/intermediates/res/merged/debug/layout/activity_refresh.xml",
-        "source": "/home/andrewlu/workspace/private/code/android/CustomView/app/src/main/res/layout/activity_refresh.xml"
+        "merged": "D:\\ws-private\\CustomView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ratio_layout.xml",
+        "source": "D:\\ws-private\\CustomView\\app\\src\\main\\res\\layout\\activity_ratio_layout.xml"
+    },
+    {
+        "merged": "D:\\ws-private\\CustomView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_flexheader.xml",
+        "source": "D:\\ws-private\\CustomView\\app\\src\\main\\res\\layout\\activity_flexheader.xml"
     }
 ]

@@ -59,4 +59,12 @@ public class FlipActivity extends Activity {
 2. 视频播放器场景,当希望视频播放窗口的宽高比为4:3时,可以简单的在外面套上一个RatioFrameLayout然后xml中设定宽高比的值为1.33
 
 
+#New 2016-04-17
+#新增控件 BlurringView 用于背景模糊的控件实现.
+原项目地址:https://github.com/500px/500px-android-blur
+
+#新增控件:RoundView 用于圆角边框的布局,继承自FrameLayout. 可以实现任意布局的圆角化.
+与CardView 不同的是,它兼容所有版本的手机, 而CardView则会在4.x以下为内容留出一个边框--有时候无法符合我们的需求.
+典型应用: 如果想要圆角图片,则只需在ImageView外边套上RoundView布局.即可正确处理圆角绘制,而不是去修改ImageView的实现.
+
 大家工作中,遇到还需要什么样的控件可以发问题讨论,将尽量给大家实现丰富多彩的自定义控件.

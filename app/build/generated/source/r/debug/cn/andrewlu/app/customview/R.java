@@ -9,10 +9,92 @@ package cn.andrewlu.app.customview;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int blurRadius=0x7f010001;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int downsampleFactor=0x7f010002;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int header=0x7f010000;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int overlayColor=0x7f010003;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int radius=0x7f010006;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ratio_h_w=0x7f010005;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ratio_w_h=0x7f010004;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>rect</code></td><td>0</td><td></td></tr>
+<tr><td><code>circle</code></td><td>1</td><td></td></tr>
+<tr><td><code>oval</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int shape=0x7f010009;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int strokeColor=0x7f010008;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int strokeWidth=0x7f010007;
     }
     public static final class color {
         public static final int primary=0x7f050000;
@@ -38,20 +120,25 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int icon_back=0x7f02000f;
     }
     public static final class id {
-        public static final int back=0x7f070004;
-        public static final int container=0x7f070006;
-        public static final int flexHeadLayout=0x7f070001;
-        public static final int flipBtn=0x7f070003;
-        public static final int refreshBtn=0x7f070002;
-        public static final int refreshLayout=0x7f070005;
-        public static final int textView1=0x7f070000;
+        public static final int back=0x7f070008;
+        public static final int circle=0x7f070000;
+        public static final int container=0x7f07000a;
+        public static final int customView=0x7f070007;
+        public static final int flexHeadLayout=0x7f070004;
+        public static final int flipBtn=0x7f070006;
+        public static final int oval=0x7f070001;
+        public static final int rect=0x7f070002;
+        public static final int refreshBtn=0x7f070005;
+        public static final int refreshLayout=0x7f070009;
+        public static final int textView1=0x7f070003;
     }
     public static final class layout {
         public static final int activity_flexheader=0x7f030000;
         public static final int activity_flip=0x7f030001;
         public static final int activity_main=0x7f030002;
-        public static final int activity_refresh=0x7f030003;
-        public static final int inc_header=0x7f030004;
+        public static final int activity_ratio_layout=0x7f030003;
+        public static final int activity_refresh=0x7f030004;
+        public static final int inc_header=0x7f030005;
     }
     public static final class string {
         public static final int app_name=0x7f060000;
@@ -90,5 +177,192 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name cn.andrewlu.app.customview:header
         */
         public static final int FlexableHeaderLayout_header = 0;
+        /** Attributes that can be used with a PxBlurringView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #PxBlurringView_blurRadius cn.andrewlu.app.customview:blurRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #PxBlurringView_downsampleFactor cn.andrewlu.app.customview:downsampleFactor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PxBlurringView_overlayColor cn.andrewlu.app.customview:overlayColor}</code></td><td></td></tr>
+           </table>
+           @see #PxBlurringView_blurRadius
+           @see #PxBlurringView_downsampleFactor
+           @see #PxBlurringView_overlayColor
+         */
+        public static final int[] PxBlurringView = {
+            0x7f010001, 0x7f010002, 0x7f010003
+        };
+        /**
+          <p>This symbol is the offset where the {@link cn.andrewlu.app.customview.R.attr#blurRadius}
+          attribute's value can be found in the {@link #PxBlurringView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name cn.andrewlu.app.customview:blurRadius
+        */
+        public static final int PxBlurringView_blurRadius = 0;
+        /**
+          <p>This symbol is the offset where the {@link cn.andrewlu.app.customview.R.attr#downsampleFactor}
+          attribute's value can be found in the {@link #PxBlurringView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name cn.andrewlu.app.customview:downsampleFactor
+        */
+        public static final int PxBlurringView_downsampleFactor = 1;
+        /**
+          <p>This symbol is the offset where the {@link cn.andrewlu.app.customview.R.attr#overlayColor}
+          attribute's value can be found in the {@link #PxBlurringView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name cn.andrewlu.app.customview:overlayColor
+        */
+        public static final int PxBlurringView_overlayColor = 2;
+        /** Attributes that can be used with a RatioLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RatioLayout_ratio_h_w cn.andrewlu.app.customview:ratio_h_w}</code></td><td></td></tr>
+           <tr><td><code>{@link #RatioLayout_ratio_w_h cn.andrewlu.app.customview:ratio_w_h}</code></td><td></td></tr>
+           </table>
+           @see #RatioLayout_ratio_h_w
+           @see #RatioLayout_ratio_w_h
+         */
+        public static final int[] RatioLayout = {
+            0x7f010004, 0x7f010005
+        };
+        /**
+          <p>This symbol is the offset where the {@link cn.andrewlu.app.customview.R.attr#ratio_h_w}
+          attribute's value can be found in the {@link #RatioLayout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name cn.andrewlu.app.customview:ratio_h_w
+        */
+        public static final int RatioLayout_ratio_h_w = 1;
+        /**
+          <p>This symbol is the offset where the {@link cn.andrewlu.app.customview.R.attr#ratio_w_h}
+          attribute's value can be found in the {@link #RatioLayout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name cn.andrewlu.app.customview:ratio_w_h
+        */
+        public static final int RatioLayout_ratio_w_h = 0;
+        /** Attributes that can be used with a RoundView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RoundView_radius cn.andrewlu.app.customview:radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundView_shape cn.andrewlu.app.customview:shape}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundView_strokeColor cn.andrewlu.app.customview:strokeColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundView_strokeWidth cn.andrewlu.app.customview:strokeWidth}</code></td><td></td></tr>
+           </table>
+           @see #RoundView_radius
+           @see #RoundView_shape
+           @see #RoundView_strokeColor
+           @see #RoundView_strokeWidth
+         */
+        public static final int[] RoundView = {
+            0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009
+        };
+        /**
+          <p>This symbol is the offset where the {@link cn.andrewlu.app.customview.R.attr#radius}
+          attribute's value can be found in the {@link #RoundView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name cn.andrewlu.app.customview:radius
+        */
+        public static final int RoundView_radius = 0;
+        /**
+          <p>This symbol is the offset where the {@link cn.andrewlu.app.customview.R.attr#shape}
+          attribute's value can be found in the {@link #RoundView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>rect</code></td><td>0</td><td></td></tr>
+<tr><td><code>circle</code></td><td>1</td><td></td></tr>
+<tr><td><code>oval</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name cn.andrewlu.app.customview:shape
+        */
+        public static final int RoundView_shape = 3;
+        /**
+          <p>This symbol is the offset where the {@link cn.andrewlu.app.customview.R.attr#strokeColor}
+          attribute's value can be found in the {@link #RoundView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name cn.andrewlu.app.customview:strokeColor
+        */
+        public static final int RoundView_strokeColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link cn.andrewlu.app.customview.R.attr#strokeWidth}
+          attribute's value can be found in the {@link #RoundView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name cn.andrewlu.app.customview:strokeWidth
+        */
+        public static final int RoundView_strokeWidth = 1;
     };
 }

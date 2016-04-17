@@ -51,4 +51,5 @@
                 android:background="#cc0044" />
         </LinearLayout>
     </HorizontalScrollView>
+
 </LinearLayout>
