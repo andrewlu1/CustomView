@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
 
     defaultConfig {
         applicationId "cn.andrewlu.app.customview"
-        minSdkVersion 19
-        targetSdkVersion 21
+        minSdkVersion 14
+        targetSdkVersion 24
     }
 
     buildTypes {
@@ -19,7 +19,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:23.1.1'
     compile files('libs/xutils_aoyolo.jar')
     compile files('libs/android-support-v8-renderscript.jar')
+    compile 'com.android.support:support-v4:24.2.1'
 }

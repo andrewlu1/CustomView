@@ -1,15 +1,8 @@
 package cn.andrewlu.app.customview.sample;
 
-import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.view.annotation.ViewInject;
-
 import android.app.Activity;
-import android.content.Intent;
-import android.support.v4.app.FragmentActivity;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
+
+import com.lidroid.xutils.ViewUtils;
 
 import cn.andrewlu.app.customview.FlipHelper;
 import cn.andrewlu.app.customview.R;

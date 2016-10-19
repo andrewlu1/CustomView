@@ -29,6 +29,7 @@ import java.lang.ref.WeakReference;
  * 这个是别人写的一个用于背景模糊的遮罩View. 性能非常高效,基本可以达到实时模糊. 在此贴出.
  * 需要依赖 android.support-v8-renderscript这个库.使用时注意从libs中拷贝过去.
  */
+@Deprecated
 public class BlurringView extends View {
 
     public BlurringView(Context context) {

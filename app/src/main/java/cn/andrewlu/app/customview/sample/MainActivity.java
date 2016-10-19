@@ -1,21 +1,13 @@
 package cn.andrewlu.app.customview.sample;
 
-import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.view.annotation.ViewInject;
-import com.lidroid.xutils.view.annotation.event.OnClick;
-
 import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
-import java.sql.Ref;
+import com.lidroid.xutils.ViewUtils;
+import com.lidroid.xutils.view.annotation.event.OnClick;
 
 import cn.andrewlu.app.customview.R;
-import cn.andrewlu.app.customview.SuperRefreshLayout;
 
 public class MainActivity extends FragmentActivity {
 
